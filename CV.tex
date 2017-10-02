@@ -1,0 +1,101 @@
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.865]{geometry}
+
+\addtolength{\topmargin}{-15pt}
+\addtolength{\textheight}{50pt}
+
+\nopagenumbers{}
+\renewcommand{\labelitemi}{-}%{$\cdot$}
+\setlength{\hintscolumnwidth}{2.7cm}
+\AtBeginDocument{\recomputelengths}
+
+\firstname{\Huge{Arthur}}
+\familyname{\Huge{Darcet}}
+\title{}
+\address{45, rue Pauline Borgh\`ese}{92200 Neuilly sur Seine -- France}    
+\mobile{+33 (0)6 45 06 45 75}     
+\email{arthur@darcet.fr}
+\extrainfo{Nationality: French \\
+Birth date: 11/11/1989}
+%\photo{Id.png}
+
+\newcommand{\gray}[1] {\textcolor{gray}{#1}}
+  
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+\maketitle
+\section{Education}
+\cventry{2012 -- 2013}{Master MVA - ENS Cachan}{Paris}{}{}{Courses on machine learning, computer vision and digital imaging}
+\cventry{2009 -- 2013}{\'Ecole polytechnique}{Paris}{One of France's leading universities for high level scientific studies}{}{Specialization in computer science : 
+visual computing; following courses on networks and parallel programming}
+
+\mbox{}
+
+\section{Professional Experiences}
+
+\cventry{2013 -- current}{Glose}{}{Paris}{CTO / Backend dev}{
+Using the latest science and technology to long form textual content to create new forms of discovery, sharing, and engagement in reading. 
+\begin{itemize}
+\item Building an infrastructure platform hosting and delivering 5M+ titles to readers
+\item Creating machine learning algorithms to extract knowledge and data from our text corpus (300B+ words)
+\item Working with educators to help students read more and better. 
+\item Building a big data infrastructure to personalize reading and improve learning. 
+\end{itemize}
+\gray{NLP -- Machine Learning -- Python -- React -- MongoDB -- Google Cloud Platform -- Kubernetes}
+}
+
+\cventry{2017 -- current}{EPITA}{}{Paris}{Teacher}{Teaching the Python class for year 4 students}
+
+\cventry{2012}{Eventbrite}{}{San Francisco}{Software engineer}{
+Working with the Fraud \& Risk team to detect order frauds.
+\begin{itemize}
+\item Building a fraud detection model and training it against thousands of previous frauds
+\item Implementing the review interface to allow the sales team to accept/reject the orders
+\end{itemize}
+\gray{Machine Learning -- Python -- Scikit -- Django}
+}
+
+\cventry{Summer 2011}{Orange UK R\&D}{}{London}{Web developer}{
+Bench-marking how mobile web frameworks could eventually replace the existing native apps \\
+\gray{Javascript -- Sencha}
+}
+
+\cventry{2010 -- 2011}{Students’ IT Association}{}{President}{}{
+\begin{itemize}
+\item Managing a team of 20 expert students
+\item Providing IT services to the 1000 students of the campus
+\end{itemize}
+\gray{Unix server administration -- Network -- Mail server -- PHP web development -- Salt}
+}
+
+\cventry{2009 -- 2010}{H\^opital de Saint Denis}{}{North of Paris}{}{Eight-month leadership training as a member of the hospital staff, as part of École polytechnique 
+curriculum}
+
+\mbox{}
+
+\section{Computer projects}
+
+\cventry{2011 \& 2012}{ACM efficient programming contest}{}{Selected for the Southwestern European contest}{}{
+\textcolor{gray}{Algorithmic -- Java -- C++}
+}
+\cventry{2010}{Polytechnique scientific project}{}{Created a virtual 3D Chess game using OpenCV to interact with webcams and OpenGL to represent the game}{}{
+\gray{Computer vision -- OpenGL -- OpenCV -- C++}
+}
+
+\cventry{2009}{Ponts \'Etudes Projets}{}{Design and implementation a new web-based Information System}{}{
+\gray{PHP -- MySQL}
+}
+
+\cventry{2007 -- 2009}{Undergraduate scientific project}{}{Design and development of an image compression algorithm}{}{
+\gray{OCaml}
+}
+
+\mbox{}
+
+\section{Outside interests}
+\cventry{Sport}{Rock Climbing}{}{currently training six hours a week}{}{}
+\cventry{Tutoring}{Computer Science and Mathematics}{}{for undergraduate students}{}{}
+\end{document}
